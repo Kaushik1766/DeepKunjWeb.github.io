@@ -8,12 +8,14 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="w-screen">
-    <nav class="bg-orange-700 drop-shadow-xl px-4 py-2 text-white font-mono rounded-2xl">
+<body class="">
+    <nav class="bg-orange-700 drop-shadow-xl px-4 py-2 text-white font-mono">
         <div>
-            <ul class="lg:grid grid-cols-5 place-content-center sm:text-center border border-white">
-                <li onclick="window.location.href = '#';" class="btn hover:bg-yellow-300 hover:text-black btn"><a
-                        href="#">Home</a></li>
+            <ul
+                class="grid md:grid-cols-5 sm:grid-cols-1 place-content-center text-center border border-white text-lg md:text-xl">
+                <li onclick="window.location.href = 'index.html';" class="btn hover:bg-yellow-300 hover:text-black btn">
+                    <a href="#">Home</a>
+                </li>
                 <li onclick="window.location.href = '#';" class="btn hover:bg-yellow-300 hover:text-black btn">Gallery
                 </li>
                 <li onclick="window.location.href = '#';" class="btn hover:bg-yellow-300 hover:text-black btn"><a
@@ -26,178 +28,269 @@
         </div>
         </div>
     </nav>
-    <div class=" bg-no-repeat bg-cover bg-fixed">
+    <div class="overflow-hidden">
         <div style="background-image: url(https://images.pexels.com/photos/8424033/pexels-photo-8424033.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);"
-            class="bg-cover bg-no-repeat bg-fixed h-1/2 w-full">
-        </div>
-        <main class="bg-orange-400">
-            <div class="container mx-auto">
-                <div class="p-5 grid grid-cols-2 md:grid-flow-col gap-4 place-content-center md:grid-cols-4">
-                    <div class="names hover:scale-110">
-                        <div style="background-image: url(img/durga-bg.jpg);"
-                            class="text-center h-full w-full bg-no-repeat bg-cover bg-gray-600 opacity-80 py-8">
-                            <!-- <img src="img\CholeBhature.jpg" alt=""> -->
-                            <div class="font-mono text-white py-4 px-2">
-                                <h1 class="text-4xl">108 Durga names</h1>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="names hover:scale-110">
-                        <div style="background-image: url(img/face.jpg);"
-                            class="text-center h-full w-full bg-no-repeat bg-cover bg-gray-600 opacity-80 py-8">
-                            <!-- <img src="img\CholeBhature.jpg" alt=""> -->
-                            <div class="font-mono text-white py-4 px-4">
-                                <h1 class="text-4xl">DURGA CHALISA</h1>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="names hover:scale-110">
-                        <div style="background-image: url(img/image\ \(1\).jpg);"
-                            class="text-center h-full w-full bg-no-repeat bg-cover bg-gray-600 opacity-80 py-8 filter bg-blend-darken">
-                            <!-- <img src="img\CholeBhature.jpg" alt=""> -->
-                            <div class="font-mono text-white py-4 px-2">
-                                <h1 class="text-4xl">Navaratri Greetings</h1>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="names hover:scale-110">
-                        <div style="background-image: url(img/image\ \(2\).jpg);"
-                            class="text-center h-full w-full bg-no-repeat bg-gray-600 opacity-80 bg-cover py-8">
-                            <!-- <img src="img\CholeBhature.jpg" alt=""> -->
-                            <div class="font-mono text-white py-4 px-2">
-                                <h1 class="text-4xl">Nine days of navratri</h1>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="names hover:scale-110">
-                        <div style="background-image: url(img/image\ \(3\).jpg);"
-                            class="text-center h-full w-full bg-no-repeat bg-gray-600 opacity-80 bg-cover py-8">
-                            <!-- <img src="img\CholeBhature.jpg" alt=""> -->
-                            <div class="font-mono text-white py-4 px-2">
-                                <h1 class="text-4xl">navratri quotes</h1>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="names hover:scale-110">
-                        <div style="background-image: url(img/image\ \(4\).jpg);"
-                            class="text-center h-full w-full bg-no-repeat bg-gray-600 opacity-80 bg-cover py-8">
-                            <!-- <img src="img\CholeBhature.jpg" alt=""> -->
-                            <div class="font-mono text-white py-4 px-2">
-                                <h1 class="text-4xl">navratri songs</h1>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-span-2 row-span-3 rounded overflow-hidden shadow-lg shadow-gray-700 bg-orange-300">
-                        <div class="m-4 p-4">
-                            <h6 class="text-6xl text-center m-4 p-4 text-white"> DURGA PUJA</h6>
-                            <h2 class="m-3 p-3 text-lg text-black">Durga Puja is one of the religious festivals of India
-                                which is
-                                celebrated
-                                throughout the
-                                country
-                                with great zeal and fervor. It is particularly celebrated in the state of West Bengal in
-                                Kolkata
-                                in the honor of celebrating the unfathomable power of Goddess Durga. This festival is
-                                celebrated
-                                during the span of the whole period of Navaratri for a time span of 10 days. From the
-                                sixth
-                                day
-                                of Navaratri till the ninth day the huge pandals of the Goddess Durga are open for the
-                                visitors.
-                                The tenth day of the Navaratri is called as Dashami and on this day the idols of the
-                                Goddess
-                                Durga are immersed into the water and this process is called as Visarjan. This year in
-                                2019,
-                                Dashami is falling on 08th October, Tuesday.
-                        </div>
+            class="bg-cover bg-no-repeat bg-fixed p-5">
+            <div class="opacity-0 h-1/2"></div>
 
+            <main class="bg-orange-400 rounded-t-3xl">
+                <div class="p-2">
+                    <div class="p-5 grid grid-cols-2 md:grid-flow-col gap-4 place-content-center md:grid-cols-4">
+                        <div onclick="window.location.href = '#';" class="names hover:scale-110">
+                            <div style="background-image: url(img/durga-bg.jpg);"
+                                class="text-center h-full w-full bg-no-repeat bg-cover bg-gray-600 opacity-80 py-8">
+                                <!-- <img src="img\CholeBhature.jpg" alt=""> -->
+                                <div class="font-mono text-white py-4 px-2">
+                                    <h1 class="text-4xl">108 Durga names</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div onclick="window.location.href = '#';" class="names hover:scale-110">
+                            <div style="background-image: url(img/face.jpg);"
+                                class="text-center h-full w-full bg-no-repeat bg-cover bg-gray-600 opacity-80 py-8">
+                                <!-- <img src="img\CholeBhature.jpg" alt=""> -->
+                                <div class="font-mono text-white py-4 px-4">
+                                    <h1 class="text-4xl">DURGA CHALISA</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div onclick="window.location.href = '#';" class="names hover:scale-110">
+                            <div style="background-image: url(img/image\ \(1\).jpg);"
+                                class="text-center h-full w-full bg-no-repeat bg-cover bg-gray-600 opacity-80 py-8 filter bg-blend-darken">
+                                <!-- <img src="img\CholeBhature.jpg" alt=""> -->
+                                <div class="font-mono text-white py-4 px-2">
+                                    <h1 class="text-4xl">Navaratri Greetings</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div onclick="window.location.href = 'ninedays.html';" class="names hover:scale-110">
+                            <div style="background-image: url(img/image\ \(2\).jpg);"
+                                class="text-center h-full w-full bg-no-repeat bg-gray-600 opacity-80 bg-cover py-8">
+                                <!-- <img src="img\CholeBhature.jpg" alt=""> -->
+                                <div class="font-mono text-white py-4 px-2">
+                                    <h1 class="text-4xl">Nine days of navratri</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div onclick="window.location.href = '#';" class="names hover:scale-110">
+                            <div style="background-image: url(img/image\ \(3\).jpg);"
+                                class="text-center h-full w-full bg-no-repeat bg-gray-600 opacity-80 bg-cover py-8">
+                                <!-- <img src="img\CholeBhature.jpg" alt=""> -->
+                                <div class="font-mono text-white py-4 px-2">
+                                    <h1 class="text-4xl">navratri quotes</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div onclick="window.location.href = '#';" class="names hover:scale-110">
+                            <div style="background-image: url(img/image\ \(4\).jpg);"
+                                class="text-center h-full w-full bg-no-repeat bg-gray-600 opacity-80 bg-cover py-8">
+                                <!-- <img src="img\CholeBhature.jpg" alt=""> -->
+                                <div class="font-mono text-white py-4 px-2">
+                                    <h1 class="text-4xl">navratri songs</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="col-span-2 row-span-3 rounded overflow-hidden shadow-lg shadow-gray-700 bg-orange-300">
+                            <div class="m-4 p-4">
+                                <h6 class="text-6xl text-center m-4 p-4 text-white"> DURGA PUJA</h6>
+                                <h2 class="m-3 p-3 text-lg text-black">Durga Puja is one of the religious festivals of
+                                    India
+                                    which is
+                                    celebrated
+                                    throughout the
+                                    country
+                                    with great zeal and fervor. It is particularly celebrated in the state of West
+                                    Bengal in
+                                    Kolkata
+                                    in the honor of celebrating the unfathomable power of Goddess Durga. This festival
+                                    is
+                                    celebrated
+                                    during the span of the whole period of Navaratri for a time span of 10 days. From
+                                    the
+                                    sixth
+                                    day
+                                    of Navaratri till the ninth day the huge pandals of the Goddess Durga are open for
+                                    the
+                                    visitors.
+                                    The tenth day of the Navaratri is called as Dashami and on this day the idols of the
+                                    Goddess
+                                    Durga are immersed into the water and this process is called as Visarjan. This year
+                                    in
+                                    2019,
+                                    Dashami is falling on 08th October, Tuesday.
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </main>
+
+
+            <img src="img/Wave.svg" alt="">
+            <div class=" bg-red-600 p-8">
+
+
+
+                <div class="flex flex-auto justify-around items-center p-4 ">
+                    <div class="inline m-4 rounded-xl shadow-lg overflow-hidden">
+                        <table style="background-image: url(http://www.durga-puja.org/images/mata-charan.png);"
+                            class="table-auto text-2xl Font-mono bg-no-repeat bg-right-bottom bg-pink-100 hover:bg-pink-200">
+                            <thead class="text-red-800 p-2 m-2">
+                                <tr>
+                                    <th colspan="3">
+                                        Durga Puja Dates
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-red-900 font-extrabold">
+                                <tr>
+                                    <td>Kalash Sthapana</td>
+                                    <td>18 October 2023</td>
+                                    <td>Wednesday</td>
+                                </tr>
+                                <tr>
+                                    <td>Maha Panchami</td>
+                                    <td>19 October 2023</td>
+                                    <td>Thursday</td>
+                                </tr>
+                                <tr>
+                                    <td>Maha Shashti</td>
+                                    <td>20 October 2023</td>
+                                    <td>Friday</td>
+                                </tr>
+                                <tr>
+                                    <td>Maha Saptami</td>
+                                    <td>21 October 2023</td>
+                                    <td>Saturday</td>
+                                </tr>
+                                <tr>
+                                    <td>Maha Ashtami</td>
+                                    <td>22 October 2023</td>
+                                    <td>Sunday</td>
+                                </tr>
+                                <tr>
+                                    <td>Maha Navami</td>
+                                    <td>23 October 2023</td>
+                                    <td>Monday</td>
+                                </tr>
+                                <tr>
+                                    <td>Dusshera</td>
+                                    <td>24 October 2023</td>
+                                    <td>Tuesday</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="self-end">
+                        <h1 class="m-2 p-2 text-2xl text-white">Listen to some popular Durga Puja songs</h1>
+                        <iframe style="border-radius:12px"
+                            src="https://open.spotify.com/embed/playlist/4X3xktAZUxhOb2Wh0E5ZKL?utm_source=generator"
+                            width="100%" height="352" frameBorder="0" allowfullscreen=""
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                            loading="lazy"></iframe>
                     </div>
                 </div>
             </div>
-
-        </main>
-    </div>
-    <img src="img/Wave.svg" alt="">
-    <div class="w-screen bg-red-600">
-
-
-
-        <div class="flex flex-col flex-auto justify-center items-center p-4 ">
-            <div class="inline m-4 rounded-xl shadow-lg overflow-hidden">
-                <table style="background-image: url(http://www.durga-puja.org/images/mata-charan.png);"
-                    class="table-auto text-2xl Font-mono bg-no-repeat bg-right-bottom bg-pink-100 hover:bg-pink-200">
-                    <thead class="text-red-800 p-2 m-2">
-                        <tr>
-                            <th colspan="3">
-                                Durga Puja Dates
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody class="text-red-900 font-extrabold">
-                        <tr>
-                            <td>Kalash Sthapana</td>
-                            <td>18 October 2023</td>
-                            <td>Wednesday</td>
-                        </tr>
-                        <tr>
-                            <td>Maha Panchami</td>
-                            <td>19 October 2023</td>
-                            <td>Thursday</td>
-                        </tr>
-                        <tr>
-                            <td>Maha Shashti</td>
-                            <td>20 October 2023</td>
-                            <td>Friday</td>
-                        </tr>
-                        <tr>
-                            <td>Maha Saptami</td>
-                            <td>21 October 2023</td>
-                            <td>Saturday</td>
-                        </tr>
-                        <tr>
-                            <td>Maha Ashtami</td>
-                            <td>22 October 2023</td>
-                            <td>Sunday</td>
-                        </tr>
-                        <tr>
-                            <td>Maha Navami</td>
-                            <td>23 October 2023</td>
-                            <td>Monday</td>
-                        </tr>
-                        <tr>
-                            <td>Dusshera</td>
-                            <td>24 October 2023</td>
-                            <td>Tuesday</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-    <img src="img/Wave (4).svg" alt="">
-    <div class="w-screen bg-white">
-        <div class="flex justify-center items-center m-4 p-4">
-            <div class="w-1/2 bg-gray-300 p-4 rounded-xl hover:border-4 border-red-500">
-                <div>
-                    <h1 class="text-2xl">Who we are?</h1>
-                </div>
-                <div>
-                    <h2>
-                        We Deepkunj Sarvajanin Committee are a bengali organization. We consist of a group of members
-                        who
-                        organize all types of Pujas in Bengali culture. We organize most of our events at Community Hall
-                        Lucknow.
-                    </h2>
+            <img src="img/Wave (4).svg" alt="">
+            <div class="bg-white">
+                <div class="flex justify-center gap-4 items-start p-4">
+                    <div class="w-1/2 bg-gray-300 my-8 p-4 rounded-xl hover:border-4 hover:p-3 border-red-500 h-min">
+                        <div>
+                            <h1 class="text-2xl text-center">Who we are?</h1>
+                        </div>
+                        <div>
+                            <h2>
+                                We Deepkunj Sarvajanin Committee are a bengali organization. We consist of a group of
+                                members
+                                who
+                                organize all types of Pujas in Bengali culture. We organize most of our events at
+                                Community
+                                Hall
+                                Lucknow. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam iure fugiat
+                                recusandae. Harum ratione est nemo assumenda porro quidem maiores modi incidunt dicta
+                                repellendus. Eligendi, facilis reiciendis. Repellat atque sunt eligendi aperiam soluta
+                                sequi
+                                a,
+                                nihil tempora reiciendis rem architecto laudantium ratione ab perferendis nesciunt eum
+                                expedita
+                                nemo sint hic. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque ad
+                                aliquam
+                                reprehenderit inventore autem alias animi amet neque quae. Reprehenderit autem
+                                recusandae
+                                quasi
+                                libero? Itaque nihil illo architecto culpa harum velit dolore dolores atque minima
+                                doloribus
+                                recusandae eligendi sequi voluptates dolor quas deleniti nesciunt omnis a praesentium
+                                voluptas,
+                                suscipit aliquam? Nisi dolores beatae velit esse? Nobis, magnam molestias fuga eius
+                                aliquid
+                                doloremque? Exercitationem error blanditiis iure quia assumenda quibusdam in, est
+                                commodi
+                                libero
+                                eum odit voluptas reiciendis adipisci quae officia eaque fuga illo minus rerum rem?
+                                Similique,
+                                nostrum, quae nam, ab nisi corporis quo consequatur id dolore quis quaerat cupiditate!
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="">
+                        <h2 class="text-center p-4 text-2xl text-gray-800 uppercase">Community Hall Location</h2>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3561.5329352858703!2d80.89621206421282!3d26.79115437176394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfeaa091bc68d%3A0x5fd64c703b93d913!2sCommunity%20Hall%2C%20Sector%20D%2C%20LDA%20Colony%2C%20Lucknow%2C%20Uttar%20Pradesh%20226012!5e0!3m2!1sen!2sin!4v1677006823522!5m2!1sen!2sin"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                            class="rounded-xl border-4 border-red-500"></iframe>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="flex justify-center items-center m-4 p-4">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3561.5329352858703!2d80.89621206421282!3d26.79115437176394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfeaa091bc68d%3A0x5fd64c703b93d913!2sCommunity%20Hall%2C%20Sector%20D%2C%20LDA%20Colony%2C%20Lucknow%2C%20Uttar%20Pradesh%20226012!5e0!3m2!1sen!2sin!4v1677006823522!5m2!1sen!2sin"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade" class="rounded-xl"></iframe>
+            <footer class="bg-white rounded-b-3xl border border-t-2 border-black">
+                <div class="p-4">
+                    <h3>
+                        Contact us:
+                    </h3>
+                    <div class="flex flex-col">
+                        <address>
+                            Created by: Kaushik Saha <br>
+                            Email: <a href="mailto:kaushiksaha004@gmail.com"
+                                class="text-blue-500 underline">kaushiksaha004@gmail.com</a>
+                        </address>
+                        <div class="flex flex-row justify-around gap-4 m-2 p-2">
+                            <a href="https://github.com/Kaushik1766/" target="_blank" class="flex items-center">
+                                <img src="img/github-mark.svg" class="w-5" alt="">
+                                <p class="">
+                                    Github
+                                </p>
+                            </a>
+                            <a href="https://www.linkedin.com/in/kaushik-saha-6187b9249/" target="_blank"
+                                class="flex items-center">
+                                <img src="img/linkedin.svg" class="w-5" alt="">
+                                <p class="">
+                                    LinkedIn
+                                </p>
+                            </a>
+                            <a href="https://github.com/Kaushik1766/" target="_blank" class="flex items-center">
+                                <img src="img/twitter.svg" class="w-5" alt="">
+                                <p class="">
+                                    Twitter
+                                </p>
+                            </a>
+                            <a href="https://www.linkedin.com/in/kaushik-saha-6187b9249/" target="_blank"
+                                class="flex items-center">
+                                <img src="img/instagram.svg" class="w-5" alt="">
+                                <p class="">
+                                    Instagram
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
         </div>
     </div>
+
+
 
 </body>
 
